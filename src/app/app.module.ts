@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import {ButtonRadioDirective} from 'node_modules/ngx-bootstrap/buttons';
+
+
+
 
 
 @NgModule({
@@ -12,8 +16,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     FooterComponent,
     NavbarComponent,
-    HomeComponent
-
+    HomeComponent,
+    ButtonRadioDirective
   ],
   imports: [
     BrowserModule

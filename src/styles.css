@@ -11,3 +11,41 @@ footer {
     width: 100%;
     ;
 }
+
+.font-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.font-Extrabold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.font-black {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.home-mobile {
+    display: none;
+    position: relative;
+}
+
+.img-mobile {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:450px) {
+    .main {
+        display: none;
+    }
+    .home-mobile {
+        display: block;
+    }
+}

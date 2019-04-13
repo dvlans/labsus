@@ -7,5 +7,62 @@
 .btn-more-proyect {
     font-size: 30px;
     margin-top: 96px;
-    background-color: burlywood;
+    background: white;
+    color: #FF9D00;
+    border-radius: 36px;
+    border-width: 5px;
+    border-color: #FF9D00;
+}
+
+.btn-more-proyect :hover {
+    background-color: #FF9D00;
+    color: white;
+    border-radius: 36px;
+    border-width: 5px;
+}
+
+.end-text-home {
+    text-align: center;
+    background-color: black;
+    border-radius: 234px 234px 234px 234px;
+    margin-top: -6%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.end-landing {
+    text-align: center;
+    background-color: black;
+    border-radius: 234px 234px 234px 234px;
+    margin-left: 34%;
+    position: absolute;
+    margin-top: -3%;
+}
+
+.end-landing-mobile {
+    text-align: center;
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 22%;
+    position: absolute;
+    margin-top: -6%;
+}
+
+.btn-ver-mas a {
+    border-radius: 31px;
+    background-color: black;
+    margin-top: -8%;
+}
+
+.btn-ver-mas :hover {
+    background: rgb(0, 255, 0);
+}
+
+.card-body a:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.img-feria :hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
