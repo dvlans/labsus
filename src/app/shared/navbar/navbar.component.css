@@ -12,3 +12,7 @@ a :hover {
     z-index: 1000000000000;
     font-size: 15px;
 }
+
+.nav-item a {
+    color: white;
+}
